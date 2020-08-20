@@ -6,7 +6,7 @@ This Action will automate the process of building and depolying react app to gh-
 Add this action inside your Repository's Actions
 
 ```
-name: Build and deploy react to gh-pages
+name: Final 20110101
 
 on:
   push:
@@ -21,8 +21,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
 
-    - name: Deploy React app to Github pages
-      uses: tanwanimohit/deploy-react-to-ghpages@v1.0
+    - name: Deploy react app to github pages
+      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
 ```
