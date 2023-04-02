@@ -6,7 +6,7 @@ This Action will automate the process of building and depolying react app to gh-
 Add this action inside your Repository's Actions
 
 ```
-name: React app deployement
+name: React app deployment
 
 on:
   push:
