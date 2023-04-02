@@ -23,5 +23,5 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Deploy react app to github pages
-      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
+      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.2
 ```
